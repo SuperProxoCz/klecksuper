@@ -19,8 +19,10 @@ import mergeLayerImg from 'url:/src/app/img/ui/merge-layers.svg';
 import removeLayerImg from 'url:/src/app/img/ui/remove-layer.svg';
 import renameLayerImg from 'url:/src/app/img/ui/rename-layer.svg';
 import caretDownImg from 'url:/src/app/img/ui/caret-down.svg';
+import mergeMovedImage from 'url:/src/app/img/merge-moved.png';
 import { KlHistory } from '../../../history/kl-history';
 import { makeUnfocusable } from '../../../../bb/base/ui';
+import { KL } from '../../../kl';
 
 const paddingLeft = 25;
 
@@ -702,6 +704,26 @@ export class LayersUi {
                         this.removeBtn,
                         this.duplicateBtn,
                         this.mergeBtn,
+                        c(
+                            {
+                                className: 'kl-info-btn',
+                                onClick: () => {
+                                    KL.popup({
+                                        target: document.body,
+                                        message:
+                                            'Advanced merge dialog moved to: <br> More > Advanced Merge<br><br><img src="' +
+                                            mergeMovedImage +
+                                            '">',
+                                    });
+                                },
+                                noRef: true,
+                                css: {
+                                    marginTop: '5px',
+                                    fontWeight: 'normal',
+                                },
+                            },
+                            'i',
+                        ),
                         renameBtn,
                         c(',grow-1'),
                         this.moreDropdown.getElement(),
@@ -756,11 +778,7 @@ export class LayersUi {
                     if (this.selectedSpotIndex <= 0) {
                         return;
                     }
-                    this.klCanvas.mergeLayers(
-                        this.selectedSpotIndex,
-                        this.selectedSpotIndex - 1,
-                        'source-over',
-                    );
+                    this.klCanvas.mergeLayers(this.selectedSpotIndex, this.selectedSpotIndex - 1);
                     this.klCanvasLayerArr = this.klCanvas.getLayers();
                     this.selectedSpotIndex--;
                     this.onSelect(this.selectedSpotIndex, false);

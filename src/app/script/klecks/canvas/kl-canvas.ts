@@ -638,7 +638,7 @@ export class KlCanvas {
     mergeLayers(
         layerBottomIndex: number,
         layerTopIndex: number,
-        mixModeStr: TMixMode | 'as-alpha',
+        mixModeStr?: TMixMode | 'as-alpha',
     ): void | number {
         if (
             !this.layers[layerBottomIndex] ||
@@ -656,6 +656,9 @@ export class KlCanvas {
 
         const topLayer = this.layers[layerTopIndex];
         const bottomLayer = this.layers[layerBottomIndex];
+        if (mixModeStr === undefined) {
+            mixModeStr = topLayer.mixModeStr;
+        }
 
         const topOpacity = this.layers[layerTopIndex].opacity;
         const mergedPixelData = topLayer.opacity > 0;

@@ -285,7 +285,7 @@
   },
   'layers-merge-advanced': {
     original: 'Advanced merge',
-    value: ''
+    value: 'Penggabungan lanjutan'
   },
   'layers-merge-all': {
     original: 'Merge all',
@@ -757,7 +757,8 @@
     value: 'Pangkas'
   },
   'cropcopy-mask': {
-    original: 'Mask unselected'
+    original: 'Mask unselected',
+    value: 'Topeng tidak dipilih'
   },
   'cropcopy-click-hold': {
     original: 'Right-click or press hold to copy.',
@@ -942,7 +943,8 @@
   },
   'filter-transform-empty-selection': {
     hint: 'nothing on the layer, in selected area (via select tool), just transparency',
-    original: 'Layer is empty in selected area.'
+    original: 'Layer is empty in selected area.',
+    value: 'Lapisan kosong di area yang dipilih.'
   },
   'filter-transform-title': {
     hint: 'same as the button, but can be longer',
@@ -1597,7 +1599,7 @@
   },
   'settings-save-reminder-disabled': {
     original: 'disabled',
-    value: 'Dimatikan'
+    value: 'dimatikan'
   },
   'settings-save-reminder-confirm-title': {
     original: 'Turn off Save Reminder?',
