@@ -1,3 +1,19 @@
+<img width="582" height="142" alt="ascii-art-text" src="https://github.com/user-attachments/assets/63d65896-c52e-4267-82d5-c0ce3621282f" />
+
+This is a fork of Klecks by bitoff on github, make sure to check out the original!!! 
+The purpose of this fork is to mod klecks and add a bit of fun to it while keeping the vanilla feel and look.
+
+**I AM STILL LEARNING!**
+This is a fan project and i won't take it as seriously, there WILL be bugs and if you some, please tell me if it affects a modded part by creating an issue and dont bomb the original repo for my mistakes!
+
+What do i want to achieve with this:
+Documentation of every feature and its place in code (help will be appreciated).
+Ease of access for other forks of the Klecks project.
+Fun.
+
+
+# Original readme
+
 🖌️ [Demo](https://kleki.com/) | ❓ [About](https://kleki.com/about/) | 📝 [Dev Blog](https://blog.kleki.com/)
 
 <p style="text-align:center">
