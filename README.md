@@ -106,5 +106,5 @@ Klecks and Kleki are community funded. [Donate today](https://kleki.com/donate/)
 
 # License
 
-bitbof © 2025 - Released under the MIT License. Icons by bitbof are public domain (excluding the Klecks logo, bitbof logo).
+bitbof © 2026 - Released under the MIT License. Icons by bitbof are public domain (excluding the Klecks logo, bitbof logo).
 While Kleki and Klecks are jointly developed, Kleki's license is separate from Klecks. Kleki must be licensed from bitbof.
