@@ -1,5 +1,5 @@
 import { BB } from '../../../bb/bb';
-import { LANG, LANGUAGE_STRINGS, LS_LANGUAGE_KEY } from '../../../language/language';
+import { LANG, LANGUAGE_STRINGS, LS_LANGUAGE_KEY } from '/src/language/language';
 import { KL } from '../../kl';
 import { languages } from '../../../../languages/languages';
 import bitbofLogoImg from 'url:/src/app/img/bitbof-logo.svg';
