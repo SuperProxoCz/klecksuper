@@ -1,5 +1,5 @@
-import { english, languages, loadLanguage, TTranslationCode } from '../../languages/languages';
-import { LocalStorage } from '../bb/base/local-storage';
+import { english, languages, loadLanguage, TTranslationCode } from '/src/languages/languages';
+import { LocalStorage } from '/src/app/script/bb/base/local-storage';
 
 export const LS_LANGUAGE_KEY = 'klecks-language';
 
