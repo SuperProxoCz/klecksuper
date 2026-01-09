@@ -11,6 +11,10 @@ Documentation of every feature and its place in code (help will be appreciated).
 Ease of access for other forks of the Klecks project.
 Fun.
 
+## DOCUMENTATION 
+
+Everything should be available at /documentation/ if you want to help with the documentation then you're welcome here, seriously i have a lot to uncover
+Please mind that i might not update this fork to the latest public kleki release but i will try my best.
 
 # Original readme
 
