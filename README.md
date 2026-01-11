@@ -1,5 +1,10 @@
 <img width="582" height="142" alt="ascii-art-text" src="https://github.com/user-attachments/assets/63d65896-c52e-4267-82d5-c0ce3621282f" />
 
+# BEFORE YOU TRY CLOUDFLARE PAGES
+
+Cloudflare pages build doesn't compile typescript into javascript so you can't directly build it this way, it will run and load but then be stuck at the loading klecks part <br>
+The only way to build it right now is native NPM (i did not try docker on this yet but i did edit some import lines to include full directories instead of ../../ because cloudflare hated that and now i am working to fix this please wait until i figure out how to build it on cloudflare then i'll focus on docker
+
 This is a fork of Klecks by bitoff on github, make sure to check out the original!!! 
 The purpose of this fork is to mod klecks and add a bit of fun to it while keeping the vanilla feel and look.
 
